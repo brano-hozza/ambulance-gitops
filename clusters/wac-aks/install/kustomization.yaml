@@ -10,6 +10,5 @@ commonLabels:
 resources:
  - ../../../apps/hozza-ambulance-ufe
 
-
 components:
  - ../../../components/version-release
