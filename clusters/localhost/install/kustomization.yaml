@@ -9,7 +9,12 @@ commonLabels:
   app.kubernetes.io/part-of: wac-hospital
 
 resources:
-- ../../../apps/hozza-ambulance-ufe
+ - ../../../apps/hozza-ambulance-ufe
+ - ../../../apps/hozza-ambulance-webapi
 
 components:
  - ../../../components/version-developers
+ - https://github.com/brano-hozza/ambulance-webapi//deployments/kustomize/components/mongodb
+
+patches:
+ - path: patches/ambulance-webapi.service.yaml
