@@ -9,6 +9,7 @@ commonLabels:
 
 resources:
  - ../../../apps/hozza-ambulance-ufe
+ - ../../../apps/hozza-ambulance-webapi
 
 components:
  - ../../../components/version-release

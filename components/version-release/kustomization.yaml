@@ -3,7 +3,9 @@ kind: Component
 images:
 - name: hozza/ambulance-ufe
   newName: hozza/ambulance-ufe
-  newTag: 1.0.1  #aktuálna verzia docker obrazu, ktorú chcete aby používatelia - cvičiaci - videli nasadenú
+  newTag: 1.1.0
+- newName: hozza/ambulance-wl-webapi
+  newTag: 1.1.0
 
 replacements:
  - targets:
