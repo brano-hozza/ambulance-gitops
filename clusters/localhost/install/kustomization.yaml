@@ -11,6 +11,7 @@ commonLabels:
 resources:
  - ../../../apps/hozza-ambulance-ufe
  - ../../../apps/hozza-ambulance-webapi
+ - ../../../apps/reserver-ufe
  - ../../../apps/mongo-express
 
 components:
