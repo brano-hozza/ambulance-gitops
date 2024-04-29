@@ -1,12 +1,15 @@
 apiVersion: kustomize.config.k8s.io/v1alpha1
 kind: Component
 images:
-- name: hozza/ambulance-ufe
-  newName: hozza/ambulance-ufe # {"$imagepolicy":  "wac-hospital:ambulance-ufe:name"}
-  newTag: main.20240408.1245 # {"$imagepolicy": "wac-hospital:ambulance-ufe:tag"}
 - name: milung/ufe-controller
   newName: milung/ufe-controller # {"$imagepolicy":  "wac-hospital:ufe-controller:name"}
   newTag: 1.7.3 # {"$imagepolicy": "wac-hospital:ufe-controller:tag"}
+- name: hozza/ambulance-ufe
+  newName: hozza/ambulance-ufe # {"$imagepolicy":  "wac-hospital:ambulance-ufe:name"}
+  newTag: main.20240408.1245 # {"$imagepolicy": "wac-hospital:ambulance-ufe:tag"}
 - name: hozza/ambulance-wl-webapi
   newName: hozza/ambulance-wl-webapi # {"$imagepolicy":  "wac-hospital:ambulance-webapi:name"}
   newTag: main.20240408.1300 # {"$imagepolicy": "wac-hospital:ambulance-webapi:tag"}
+- name: hozza/reserver-ufe
+  newName: hozza/reserver-ufe # {"$imagepolicy":  "wac-hospital:reserver-ufe:name"}
+  newTag: main.* # {"$imagepolicy": "wac-hospital:reserver-ufe:tag"}
