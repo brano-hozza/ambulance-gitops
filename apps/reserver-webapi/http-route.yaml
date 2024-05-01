@@ -12,7 +12,7 @@ spec:
    - matches:
        - path:
            type: PathPrefix
-           value: /hozza-api
+           value: /reserver-api
      filters:
        - type: URLRewrite
          urlRewrite:
