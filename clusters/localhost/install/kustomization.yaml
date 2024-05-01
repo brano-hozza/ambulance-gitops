@@ -18,7 +18,7 @@ resources:
 components:
  - ../../../components/version-developers
  - https://github.com/brano-hozza/ambulance-webapi//deployments/kustomize/components/mongodb
- - https://github.com/brano-hozza/reserver-webapi//deployments/kustomize/components/mongodb
+#  - https://github.com/brano-hozza/reserver-webapi//deployments/kustomize/components/mongodb
 
 patches:
  - path: patches/ambulance-webapi.service.yaml
