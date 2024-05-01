@@ -4,11 +4,14 @@ images:
 - name: hozza/ambulance-ufe
   newName: hozza/ambulance-ufe
   newTag: 1.1.0
-- newName: hozza/ambulance-wl-webapi
+- name: hozza/ambulance-wl-webapi
+  newName: hozza/ambulance-wl-webapi
   newTag: 1.1.0
-- newName: hozza/reserver-ufe
+- name: hozza/reserver-ufe
+  newName: hozza/reserver-ufe
   newTag: 1.1.0
-- newName: hozza/reserver-webapi
+- name: hozza/reserver-webapi
+  newName: hozza/reserver-webapi
   newTag: 1.1.0
 
 replacements:
