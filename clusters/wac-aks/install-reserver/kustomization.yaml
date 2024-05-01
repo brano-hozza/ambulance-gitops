@@ -12,4 +12,4 @@ resources:
  - ../../../apps/reserver-webapi
 
 components:
- - ../../../components/version-release
+ - ../../../components/version-release-reserver
