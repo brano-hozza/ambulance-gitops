@@ -6,7 +6,7 @@ metadata:
 spec:
     wait: true
     interval: 42s
-    path: clusters/wac-aks
+    path: clusters/wac-aks-reserver
     prune: true
     sourceRef:
         kind: GitRepository
