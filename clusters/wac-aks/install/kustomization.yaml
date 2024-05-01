@@ -5,11 +5,13 @@ namespace: wac-hospital
 
 commonLabels:
  app.kubernetes.io/part-of: wac-hospital
+ app.kubernetes.io/name: hozza-apps
 
 resources:
  - ../../../apps/hozza-ambulance-ufe
  - ../../../apps/hozza-ambulance-webapi
  - ../../../apps/reserver-ufe
  - ../../../apps/reserver-webapi
+
 components:
  - ../../../components/version-release
