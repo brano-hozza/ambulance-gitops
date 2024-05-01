@@ -13,3 +13,6 @@ images:
 - name: hozza/reserver-ufe
   newName: hozza/reserver-ufe # {"$imagepolicy":  "wac-hospital:reserver-ufe:name"}
   newTag: main # {"$imagepolicy": "wac-hospital:reserver-ufe:tag"}
+- name: hozza/reserver-webapi
+  newName: hozza/reserver-webapi # {"$imagepolicy":  "wac-hospital:reserver-webapi:name"}
+  newTag: main # {"$imagepolicy": "wac-hospital:reserver-webapi:tag"}
