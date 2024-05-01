@@ -6,6 +6,10 @@ images:
   newTag: 1.1.0
 - newName: hozza/ambulance-wl-webapi
   newTag: 1.1.0
+- newName: hozza/reserver-ufe
+  newTag: 1.1.0
+- newName: hozza/reserver-webapi
+  newTag: 1.1.0
 
 replacements:
  - targets:
@@ -20,6 +24,22 @@ replacements:
      version: v1
      kind: Deployment
      name:  hozza-ambulance-ufe-deployment
+     fieldPath: spec.template.spec.containers.0.image
+     options:
+         delimiter: ':'
+         index: 1
+ - targets:
+   - select:
+         group: fe.milung.eu
+         version: v1
+         kind: WebComponent
+         name: reserver-ufe
+     fieldPaths:
+         - spec.hash-suffix
+   source:
+     version: v1
+     kind: Deployment
+     name:  reserver-ufe-deployment
      fieldPath: spec.template.spec.containers.0.image
      options:
          delimiter: ':'
