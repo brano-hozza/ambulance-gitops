@@ -3,7 +3,7 @@ kind: Component
 images:
 - name: hozza/reserver-ufe
   newName: hozza/reserver-ufe
-  newTag: 1.2.1
+  newTag: 1.2.2
 - name: hozza/reserver-webapi
   newName: hozza/reserver-webapi
   newTag: 1.2.0
